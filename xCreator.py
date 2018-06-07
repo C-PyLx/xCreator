@@ -5,7 +5,6 @@ import os
 import sys
 import time
 import string
-import msvcrt
 import argparse
 import itertools
 
@@ -38,10 +37,9 @@ def createWordList(chrs, min, max, out):
 
     print (color.bold + color.blue + color.under + '\n[x] Time elapsed: %s' % time.strftime('%H : %M : %S'), color.end)
     print (color.green + color.bold + '[+] Passwords saved to: %s' % out.name, color.end)
-    print (color.bold + color.red + color.under + '\n[-] Press any key to exit:', color.end)
-
-    msvcrt.getche()
-
+    print (color.bold + color.red + color.under + '\n[-] Press [enter] key to exit:', color.end)
+    input ('\n')
+    
 if __name__ =='__main__':
     try:
         parser = argparse.ArgumentParser(
