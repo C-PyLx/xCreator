@@ -1,0 +1,16 @@
+Usage tutorial:
+
+For use script you will write following commands:
+
+python -chr [words] -min [min length] -max [max length] -out [any.txt]
+
+And please wait for creating them.
+
+Thanks for using xCreator!
+
+/---------------------------------------\
+| Telegram id: @Ac3ess		        |
+| Github addr: https://github.com/C-PyLx|
+| Follow me on github		        |
+| Thanks.			        |
+\---------------------------------------/
